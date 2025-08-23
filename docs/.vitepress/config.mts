@@ -2,10 +2,17 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Minimal Tailwind UI Kit",
-  description: "A sleek, lightweight UI component library built with Tailwind CSS and Alpine.js.",
+  base: '/docs',
+
+  title: " ",
+  description: "A sleek, darkweight UI component library built with Tailwind CSS and Alpine.js.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: {
+      light: '/images/logo-light.svg',
+      dark: '/images/logo-dark.svg'
+    },
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
