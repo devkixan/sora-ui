@@ -2,7 +2,7 @@
     <div class="relative my-15">
         <div class="w-full 2xl:translate-x-20 shadow-xl rounded-2xl shadow-black/5">
             <div
-                class="bg-white rounded-t-2xl border-slate-100 dark:bg-slate-800 dark:border-slate-500 border-b p-4 pb-6 sm:p-10 sm:pb-8 lg:p-6 xl:p-10 xl:pb-8 space-y-6 sm:space-y-8 lg:space-y-6 xl:space-y-8">
+                class="bg-white rounded-t-2xl dark:bg-slate-800 p-4 pb-6 sm:p-10 sm:pb-8 lg:p-6 xl:p-10 xl:pb-8 space-y-6 sm:space-y-8 lg:space-y-6 xl:space-y-8">
                 <div class="flex items-center space-x-4">
                     <span class="size-20 flex-none rounded-lg bg-slate-100"></span>
                     <div class="min-w-0 flex-auto space-y-1 font-semibold">

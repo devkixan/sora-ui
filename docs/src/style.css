@@ -91,6 +91,9 @@
 }
 
 /* Tailwind Customizations */
+@theme {
+}
+
 @layer components {
   
   .VPHome {
