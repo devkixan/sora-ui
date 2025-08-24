@@ -5,7 +5,7 @@ export default defineConfig({
   base: '/docs',
 
   title: " ",
-  description: "A sleek, darkweight UI component library built with Tailwind CSS and Alpine.js.",
+  description: "UI component library built with Tailwind CSS and Alpine.js.",
   
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -31,6 +31,11 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    ],
+    
+    footer: {
+      message: 'Released under the <a href="https://github.com/vuejs/vitepress/blob/main/LICENSE">MIT License</a>.',
+      copyright: 'Copyright © 2019-present <a href="https://github.com/yyx990803">Evan You</a>'
+    }
   }
 })
