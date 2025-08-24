@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Minimal Tailwind UI Kit"
   text: "A sleek, lightweight UI component library built with Tailwind CSS and Alpine.js."
-  tagline: My great project tagline
+  tagline: Tailwind - Alpine UI Library
   actions:
     - theme: brand
       text: Markdown Examples

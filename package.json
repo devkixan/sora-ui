@@ -3,8 +3,13 @@
     "vitepress": "^2.0.0-alpha.12"
   },
   "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./docs/src/style.css -o ./docs/.vitepress/theme/style.css --watch",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.12",
+    "tailwindcss": "^4.1.12"
   }
 }
