@@ -6,6 +6,7 @@ export default defineConfig({
 
   title: " ",
   description: "A sleek, darkweight UI component library built with Tailwind CSS and Alpine.js.",
+  
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: {
